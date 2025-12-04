@@ -1,0 +1,39 @@
+[project]
+name = "composable-service"
+version = "0.0.0"
+description = "Lightweight implementation of Finagle's Service and composable Filter types."
+readme = "README.md"
+authors = [
+    { name = "Kendall Aubertot", email = "kendall.aubertot@techtraverse.io" }
+]
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/TechTraverse/composable-service"
+Issues = "https://github.com/TechTraverse/composable-service/issues"
+
+[build-system]
+requires = ["uv_build>=0.9.3,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.407",
+    "ruff>=0.14.8",
+]
+test = [
+    "pytest>=9.0.1",
+    "pytest-asyncio>=1.3.0",
+]
+
+[tool.uv]
+default-groups=["dev", "test"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
