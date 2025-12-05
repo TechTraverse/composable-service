@@ -1,6 +1,6 @@
 [project]
 name = "simple-service-compose"
-version = "0.0.0"
+version = "0.1.0"
 description = "Lightweight implementation of Finagle's Service and composable Filter types."
 readme = "README.md"
 authors = [
