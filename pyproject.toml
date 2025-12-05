@@ -1,5 +1,5 @@
 [project]
-name = "composable-service"
+name = "simple-service-compose"
 version = "0.0.0"
 description = "Lightweight implementation of Finagle's Service and composable Filter types."
 readme = "README.md"
@@ -12,8 +12,8 @@ license-files = ["LICENSE"]
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/TechTraverse/composable-service"
-Issues = "https://github.com/TechTraverse/composable-service/issues"
+Homepage = "https://github.com/TechTraverse/simple-service-compose"
+Issues = "https://github.com/TechTraverse/simple-service-compose/issues"
 
 [build-system]
 requires = ["uv_build>=0.9.3,<0.10.0"]

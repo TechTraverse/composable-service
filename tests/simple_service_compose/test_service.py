@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 import pytest
 
-from composable_service.service import Service, Filter, SimpleFilter
+from simple_service_compose.service import Service, Filter, SimpleFilter
 
 
 @pytest.mark.asyncio

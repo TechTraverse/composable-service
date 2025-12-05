@@ -49,7 +49,7 @@ For concrete examples of:
 * composing filters with services, and
 * composing filters with other filters
 
-see: `tests/composable_service/test_service.py`.
+see: `tests/simple_service_compose/test_service.py`.
 
 # Known Limitations
 
